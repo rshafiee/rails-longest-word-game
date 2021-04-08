@@ -1,0 +1,80 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.alphabet {
+  display: inline-block;
+  background: #7868e6;
+  color: white;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+hr {
+  width: 600px;
+  background-color: #b8b5ff;
+  padding: 1px;
+}
+
+.banner {
+  background: #e4fbff;
+  height: 200px;
+  color: #7868e6;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  width: 450px;
+  border-radius: 12px;
+  height: 35px;
+  border: 1px solid #b8b5ff;
+  opacity: 0.6;
+}
+
+.button {
+  width: 100px;
+  border-radius: 50px;
+  height: 35px;
+  font-weight: bold;
+  border: 1px solid #b8b5ff;
+}
+
+.form:hover {
+  background-color: #e4fbff;
+}
+
+.word {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.answer {
+  margin-right: auto;
+  margin-left: auto;
+  width: 350px;
+  padding: 10px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+

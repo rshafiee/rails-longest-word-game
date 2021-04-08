@@ -1,0 +1,28 @@
+<div class="container banner">
+  <h1>Longest Word Game</h1>
+</div>
+
+<br>
+<br>
+
+<div class="letters">
+  <% @letters.each do |letter| %>
+   <p class="alphabet"> <%= letter.strip %> </p>
+  <% end %>
+</div>
+
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+
+<div class="container">
+  <form action="/score" method="get">
+    <input type="text" name="word" placeholder="Write here!" class="placeholder">
+    <input type="submit" value="Play!" class="button">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  </form>
+</div>
